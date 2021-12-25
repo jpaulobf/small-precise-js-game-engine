@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Simple Game Engine with precision frametime</title>
+	<script src=".\scripts\smallgameengine.js"></script>
+ </head>
+ <body>
+ 	<div id="fps"></div> 
+	<div id="canvas-div">
+		<canvas id="c1" width="600" height="400" style="border: 1px solid lightgrey"></canvas>
+	<div>
+	<div id="bt-div">
+		<button onclick="toggleFPS()">FPS</button>
+	</div>
+
+ </body>
+
+	<script>
+		/*
+			Add the initialization & keyboard listner to the window.
+		*/
+		window.onload = init;
+		window.onkeydown = keyboardListener;
+
+	</script>
+
+</html>
