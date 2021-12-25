@@ -126,33 +126,6 @@ var gameloop = function(timeStamp) {
 		window.requestAnimationFrame(gameloop);
 
 	}
-
-	/*
-
-	var timeToExecute		= 0;
-	var afterExecution		= 0;
-
-	//update
-	update();
-
-	//render
-	draw();
-
-	//save the time to execute the loop
-	//afterExecution = window.performance.now() - timeToExecute;
-
-	//store to FPS counter
-	index = timeArrayCounter++%mod;
-	timeArray[index] = timeToExecute;
-
-	if (itToShowFPS) {
-		showFPS();
-	}
-
-	//loop
-	//setTimeout(gameloop, 0, window.performance.now());
-	//window.requestAnimationFrame(gameloop);
-	*/
 }
 
 
